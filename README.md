@@ -1,7 +1,10 @@
 # Assignment1_SaidaSaduakas
   Installation
+  
       pip install pycoingecko
+      
   Usage
+  
       from pycoingecko import CoinGeckoAPI
 
       coin =CoinGeckoAPI()
@@ -9,6 +12,7 @@
       coing= coin.get_coins_markets(vs_currency='eur')
       
   Examples
+  
       >>> cg.get_price(ids='bitcoin', vs_currencies='usd')
       {'bitcoin': {'usd': 3462.04}}
 
